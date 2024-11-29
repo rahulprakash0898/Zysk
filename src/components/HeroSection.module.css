@@ -1,0 +1,89 @@
+.heroSection {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #fff;
+  }
+  
+  .featureBanner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .newFeature {
+    background-color: #f0e8ff;
+    color: #6c63ff;
+    font-size: 0.875rem;
+    font-weight: 500;
+    padding: 5px 10px;
+    border-radius: 20px;
+  }
+  
+  .dashboardLink {
+    color: #6c63ff;
+    font-size: 0.875rem;
+    font-weight: 500;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .dashboardLink:hover {
+    color: #5146d9;
+  }
+  
+  .title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #1a202c;
+    margin: 10px 0;
+  }
+  
+  .description {
+    font-size: 1rem;
+    color: #4a5568;
+    margin: 20px 0;
+    line-height: 1.6;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .buttonGroup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 30px;
+  }
+  
+  .button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  
+  .demoButton {
+    background-color: #f9f9f9;
+    color: #6c63ff;
+    border: 1px solid #6c63ff;
+  }
+  
+  .demoButton:hover {
+    background-color: #ece9ff;
+  }
+  
+  .signupButton {
+    background-color: #6c63ff;
+    color: #fff;
+  }
+  
+  .signupButton:hover {
+    background-color: #5146d9;
+  }
+  

@@ -1,0 +1,52 @@
+.testimonial {
+    background-color: #f5f5f5;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .logo img {
+    max-width: 150px;
+    margin-bottom: 20px;
+  }
+  
+  .quote {
+    font-size: 1.2rem;
+    font-style: italic;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  .author {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+  }
+  
+  .author img {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+  }
+  
+  .authorInfo {
+    text-align: left;
+  }
+  
+  .authorInfo h3 {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  .authorInfo p {
+    font-size: 1rem;
+    color: #777;
+  }
+  

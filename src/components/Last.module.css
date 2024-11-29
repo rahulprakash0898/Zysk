@@ -1,0 +1,57 @@
+
+.footer {
+    background-color: #222;
+    color: #fff;
+    padding: 20px 0;
+    font-size: 14px;
+    text-align: center;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .col {
+    width: 50%;
+  }
+  
+  .logo {
+    max-width: 150px;
+    margin-bottom: 10px;
+  }
+  
+  .brandName {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .copyright {
+    font-size: 14px;
+    color: #aaa;
+  }
+  
+  @media (max-width: 768px) {
+    .row {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .col {
+      width: 100%;
+      text-align: center;
+    }
+  
+    .logo {
+      max-width: 120px;
+    }
+  }
+  

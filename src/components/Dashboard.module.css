@@ -1,0 +1,141 @@
+.dashboard {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    gap: 20px;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+  }
+  
+
+  .sidebar {
+    background-color: #f9f9f9;
+    padding: 20px;
+  }
+  
+  .icon {
+    margin: 15px 0;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  
+
+  .mainContent {
+    padding: 20px;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .actions button {
+    margin-left: 10px;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .messageButton {
+    background-color: #e0e0e0;
+  }
+  
+  .editButton {
+    background-color: #6c63ff;
+    color: white;
+  }
+  
+  .profileStats {
+    margin-bottom: 20px;
+  }
+  
+  .chartPlaceholder {
+    height: 200px;
+    background-color: #e0e0e0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+  .filters button {
+    margin-right: 5px;
+    padding: 5px 10px;
+  }
+  
+ 
+  .stats {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .card {
+    flex: 1;
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 10px;
+  }
+  
+  .card h3 {
+    margin-bottom: 10px;
+  }
+  
+  .card ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .card ul li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+  }
+  
+
+  .chat {
+    background-color: #fff;
+    padding: 20px;
+  }
+  
+  .chat h3 {
+    margin-bottom: 10px;
+  }
+  
+  .online {
+    color: green;
+  }
+  
+  .messages {
+    height: 60%;
+    overflow-y: scroll;
+    margin-bottom: 20px;
+  }
+  
+  .messageReceived {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .messageSent {
+    background-color: #6c63ff;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .messageInput {
+    display: flex;
+  }
+  
+  .messageInput input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  

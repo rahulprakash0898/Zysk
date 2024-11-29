@@ -1,0 +1,98 @@
+
+.blogPostCard {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    max-width: 300px;
+    width: 100%;
+  }
+  
+  .blogPostCardImage {
+    height: 180px;
+    background-color: #e0e0e0; 
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .blogPostCardContent {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .blogPostCardTitle {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .blogPostCardDescription {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 15px;
+  }
+  
+  .blogPostCardAuthor {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .blogPostCardAuthorImage {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    margin-right: 10px;
+  }
+  
+  .blogPostCardAuthorInfo {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .blogPostCardAuthorName {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .blogPostCardAuthorDate {
+    font-size: 12px;
+    color: #777;
+  }
+  
+  .blogPostCardCategory {
+    font-size: 12px;
+    font-weight: bold;
+    color: #007bff;
+    margin-bottom: 15px;
+  }
+  
+  .blogPostCardLink {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #007bff;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .blogPostCardLink:hover {
+    background-color: #0056b3;
+  }
+  
+  .blogPosts {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+  }
+  
